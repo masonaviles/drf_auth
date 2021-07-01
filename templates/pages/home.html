@@ -1,0 +1,11 @@
+{% extends '_base.html' %}
+{% load static %}
+
+{% block title %}Home page{% endblock title %}
+
+{% block content %}
+<div class="text-center mt-5">
+  <img src="{% static 'images/logo.png' %}" class="object-contain w-2/4 block mx-auto" alt="DjangoX logo"/>
+  <p class="">A Django starter project with batteries.</p>
+</div>
+{% endblock content %}
